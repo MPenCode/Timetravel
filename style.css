@@ -1,76 +1,74 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 body {
-padding: 0;
-background-color: antiquewhite;
-text-align: center;
+  padding: 0;
+  background-color: antiquewhite;
+  text-align: center;
 }
 
 header {
-    /* background-image: url(https://img.freepik.com/free-photo/door-leading-magical-world_23-2151038230.jpg?t=st=1723801098~exp=1723804698~hmac=f2b6166356ac12f1248a100cb2d87c93b0657931c53e1f341db6a5dab7383274&w=1380); */
-/* display: flex; */
-padding: 1rem;
+  /* background-image: url(https://img.freepik.com/free-photo/door-leading-magical-world_23-2151038230.jpg?t=st=1723801098~exp=1723804698~hmac=f2b6166356ac12f1248a100cb2d87c93b0657931c53e1f341db6a5dab7383274&w=1380); */
+  /* display: flex; */
+  padding: 1rem;
 }
 
 h1 {
-    text-align: center;
-    text-decoration: underline;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .piccontainer {
-    width: 50% auto;
-    overflow: hidden;
+  width: 50% auto;
+  overflow: hidden;
 }
 
 .headpic {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navbar {
-    background-color: rgb(247, 170, 56);
+  background-color: rgb(247, 170, 56);
 }
 
 .navlinks {
-    list-style: none;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    padding: 1rem;
-
+  list-style: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {
-    color: rgb(133, 11, 247);
-    background-color: rgb(14, 204, 204);
-
+  color: rgb(133, 11, 247);
+  background-color: rgb(14, 204, 204);
 }
 
 .gallery-container {
-    font-family: Arial, sans-serif;
-    text-align: center;
-  }
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
 
 .gallery {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(3, 2fr);
-      margin: 1.5rem;
-  }
- 
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 2fr);
+  margin: 1.5rem;
+}
+
 .gallery-item img {
   object-fit: cover;
   width: 100%;
@@ -79,68 +77,73 @@ a:hover {
 }
 
 .address {
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
 }
-.address li{
-    border: 0.1rem solid;
-    padding: 0.3rem;
+.address li {
+  border: 0.1rem solid;
+  padding: 0.3rem;
 }
 .notice-bord-container {
-    font-family: Arial, sans-serif;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 .notice-bord {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(2, 2fr);
-      margin: 1.5rem;
-  }
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 2fr);
+  margin: 1.5rem;
+}
 
-  .notice input,textarea,select {
-    object-fit: cover;
-    width: 50%;
-    height: 50%;
-    border-radius: 5%;
-    text-align: center;
-  }
+.notice input,
+textarea,
+select {
+  object-fit: cover;
+  width: 50%;
+  height: 50%;
+  border-radius: 5%;
+  text-align: center;
+}
 
 .service {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
 .footer-link {
-    list-style: none;
-    display: flex;
-    align-items:center;
-    justify-content: space-around;
-    padding: 1rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
 }
 .footer-link a {
-    color: yellow;
+  color: yellow;
+  border: 1px solid gray;
+  padding: 4px;
 }
 
 /* main {} */
 
-p, h1, h2 {
-    padding: 1rem;
+p,
+h1,
+h2 {
+  padding: 1rem;
 }
 
 .disclaim {
-    padding: 0.1rem;
+  padding: 0.1rem;
 }
 div button {
-    color: rgb(247, 0, 255);
-    background-color: rgb(228, 210, 210);
-    padding: .3rem .6rem;
-    
+  color: rgb(247, 0, 255);
+  background-color: rgb(228, 210, 210);
+  padding: 0.3rem 0.6rem;
 }
 
 footer {
-    color: white;
-    background-color: darkblue ;
+  color: white;
+  background-color: darkblue;
 }
